@@ -46,9 +46,58 @@ body {
 .title-subtitle-container {
     position: absolute;
     top: 4em;
+    z-index: 1;
 }
-
 .left-gradient-container {
     background: radial-gradient(circle at center left, #B6F5FE, transparent 19%);
     height: 50vh;
 }
+.radial-pink-right {
+    position: absolute;
+    right: -9em;
+    top: 3em;
+    z-index: 1;
+}
+.radial-yellow-right {
+    position: absolute;
+    right: 7em;
+    top: 3em;
+}
+/* Read more btn */
+.read-more-icon {
+    margin-left: 0.3em;
+}
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .250s ease-in-out;
+}
+.read-more-state {
+    display: none;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+.read-more-state ~ .read-more-trigger:before {
+    content: 'Lire plus +';
+}
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Lire moins -';
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    color: #3C2777;
+    line-height: 3;
+    display: block;
+    margin: auto;
+}
+
+
+/* Read more btn END */
