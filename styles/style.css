@@ -47,6 +47,7 @@ body {
     position: absolute;
     top: 4em;
     z-index: 1;
+    width: 100%;
 }
 .left-gradient-container {
     background: radial-gradient(circle at center left, #B6F5FE, transparent 19%);
@@ -62,6 +63,12 @@ body {
     position: absolute;
     right: 7em;
     top: 3em;
+}
+.radial-blue-left {
+    position: absolute;
+    top: 3em;
+    left: -27em;
+    width: 100%;
 }
 /* Read more btn */
 .read-more-icon {
