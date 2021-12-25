@@ -7,6 +7,12 @@ body {
 .text-highlight {
    color: #3C2777;
 }
+.link {
+   color: hsl(256, 51%, 31%);
+   font-weight: 600;
+    margin: auto;
+
+}
 /* HEADER */
 .header-container {
     display: flex;
@@ -67,7 +73,7 @@ body {
 .radial-blue-left {
     position: absolute;
     top: 3em;
-    left: -27em;
+    left: -46em;
     width: 100%;
 }
 /* Read more btn */
@@ -105,6 +111,33 @@ body {
     display: block;
     margin: auto;
 }
-
-
 /* Read more btn END */
+
+/* CONTACT CONTAINER */
+.contact-container {
+    position: absolute;
+    top: 33em;
+    left: 15%;
+    width: 70%;
+}
+.background-rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2%;
+    background-color: #F9F3FF;
+    border-radius: 20px;
+    padding: 1.5em 1em;
+}
+.icon-and-indication {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contact-label {
+    margin: auto;
+    margin-bottom: 10px;
+}
