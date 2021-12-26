@@ -34,6 +34,7 @@ body {
 .page-title,
 .sub-title  {
     text-align: center;
+    overflow: visible;
 }
 .page-title {
     margin: auto;
@@ -141,3 +142,49 @@ body {
     margin: auto;
     margin-bottom: 10px;
 }
+
+/* MY PROJECTS */
+
+.my-projects-container {
+    position: relative;
+    top: 40em;
+    text-align: center;
+}
+.smaller-radial {
+    position: absolute;
+    top: -0.5em;
+}
+.projects-list {
+    display: flex;
+    justify-content: space-between;
+}
+.project-cart {
+    height: 21em;
+    width: 17em;
+    border-radius: 15px;
+    margin-top: 5em;
+}
+.img-container {
+    height: 13em;
+    background-position: center;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.img-weather {
+    background-image: url("../assets/weather-app-project-img.jpg");
+    height: 13em;
+    background-position: center;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.img-pitchouns {
+    background-image: url("../assets/pitchouns-img.jpg");
+}
+.img-dictionary {
+    background-image: url("../assets/dictionary-img.jpg");
+}
+.project-info-container h4,
+.project-info-container p {
+    text-align: left;
+}
+/* MY PROJECTS END */
