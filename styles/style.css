@@ -157,6 +157,8 @@ body {
 .projects-list {
     display: flex;
     justify-content: space-between;
+    width: 85%;
+    margin: auto;
 }
 .project-cart {
     height: 21em;
@@ -186,5 +188,17 @@ body {
 .project-info-container h4,
 .project-info-container p {
     text-align: left;
+}
+.project-info-container {
+    padding: 0.5em 1em;
+
+}
+.project-details {
+    display: flex;
+    align-items: center;
+}
+.github-info {
+    text-align: initial;
+    display: flex;
 }
 /* MY PROJECTS END */
