@@ -158,12 +158,14 @@ body {
 .projects-list {
     display: flex;
     justify-content: space-between;
-    width: 85%;
     margin: auto;
+    position: relative;
+    width: 85%;
+    z-index: 99;
 }
 .project-cart {
     height: 21em;
-    width: 17em;
+    width: 20em;
     border-radius: 15px;
     margin-top: 5em;
 }
@@ -190,9 +192,27 @@ body {
 .project-info-container p {
     text-align: left;
 }
+.paragraph {
+    margin-right: 1em;
+}
+.p-second {
+    margin-top: 0px;
+}
 .project-info-container {
-    padding: 0.5em 1em;
-
+    padding: 1em 1.5em;
+    background-color: white;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.project-info-small-container {
+    padding: 2.2em 1.5em;
+    background-color: white;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.project-info-small-container h4,
+.project-info-small-container p {
+    text-align: left;
 }
 .project-details {
     display: flex;
@@ -203,6 +223,34 @@ body {
     display: flex;
 }
 .icon-spacer {
-    margin: 0.5em;
+    margin-right: 0.5em;
 }
+/* svgs radials */
+
+.radial-absolute {
+    position: absolute;
+    z-index: 1;
+}
+.radial-blue-projects-section {
+    left: -13em;
+    top: -8em;
+}
+.radial-pink-projects-section {
+    left: 33em;
+    z-index: 0
+}
+.radial-yellow-projects-section {
+    left: 80em;
+}
+/* svgs radials - end */
+
+/* Design section */
+
+.design-section {
+    position: relative;
+    top: 13em;
+}
+
+/* Design section - end */
+
 /* MY PROJECTS END */
