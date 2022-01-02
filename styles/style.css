@@ -62,13 +62,13 @@ body {
 }
 .radial-pink-right {
     position: absolute;
-    right: -9em;
+    right: 0em;
     top: 3em;
     z-index: 1;
 }
 .radial-yellow-right {
     position: absolute;
-    right: 7em;
+    right: 15em;
     top: 3em;
 }
 .radial-blue-left {
@@ -111,6 +111,7 @@ body {
     line-height: 3;
     display: block;
     margin: auto;
+    width: fit-content;
 }
 /* Read more btn END */
 
@@ -200,5 +201,8 @@ body {
 .github-info {
     text-align: initial;
     display: flex;
+}
+.icon-spacer {
+    margin: 0.5em;
 }
 /* MY PROJECTS END */
