@@ -256,3 +256,28 @@ body {
 /* Design section - end */
 
 /* MY PROJECTS END */
+
+@media screen and (max-width: 780px) {
+    .projects-list {
+        position: relative;
+        display: inline-grid;
+        gap: 4em;
+        width: auto;
+    }
+    .contact-container {
+        top: 37em;
+    }
+    .background-rectangle {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 3em;
+    }
+    .contact-label {
+        display: none;
+    }
+    .page-title {
+        width: auto;
+        padding: 2em;
+        font-size: 3vh;
+    }
+}
