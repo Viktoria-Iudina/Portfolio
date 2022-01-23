@@ -4,6 +4,9 @@
 body {
     margin: auto;
 }
+main {
+    padding: 0 13em;
+}
 .text-highlight {
    color: #3C2777;
 }
@@ -42,42 +45,16 @@ body {
     margin: auto;
     display: block;
     align-items: center;
-    width: 66%;
     padding-top: 4em;
 }
 .sub-title {
     font-size: medium;
     font-weight: 50;
-    width: 84%;
     margin: auto;
     margin-top: 2em;
 }
-.title-subtitle-container {
-    position: absolute;
-    top: 4em;
-    z-index: 1;
-    width: 100%;
-}
-.left-gradient-container {
-    background: radial-gradient(circle at center left, #B6F5FE, transparent 19%);
-    height: 50vh;
-}
-.radial-pink-right {
-    position: absolute;
-    right: 0em;
-    top: 3em;
-    z-index: 1;
-}
-.radial-yellow-right {
-    position: absolute;
-    right: 15em;
-    top: 3em;
-}
-.radial-blue-left {
-    position: absolute;
-    top: 3em;
-    left: -46em;
-    width: 100%;
+.second-title {
+    margin-top: 3em;
 }
 /* Read more btn */
 .read-more-icon {
@@ -103,7 +80,6 @@ body {
 .read-more-state:checked ~ .read-more-trigger:before {
     content: 'Lire moins -';
 }
-
 .read-more-trigger {
     cursor: pointer;
     display: inline-block;
@@ -119,10 +95,8 @@ body {
 
 /* CONTACT CONTAINER */
 .contact-container {
-    position: absolute;
-    top: 33em;
-    left: 15%;
-    width: 70%;
+    display: block;
+    margin: auto;
 }
 .background-rectangle {
     display: flex;
@@ -149,27 +123,18 @@ body {
 /* MY PROJECTS */
 
 .my-projects-container {
-    position: relative;
-    top: 40em;
     text-align: center;
-}
-.smaller-radial {
-    position: absolute;
-    top: -0.5em;
 }
 .projects-list {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    position: relative;
-    width: 85%;
-    z-index: 99;
 }
 .project-cart {
-    height: 21em;
+    height: auto;
     width: 20em;
     border-radius: 15px;
-    margin-top: 5em;
+    margin-top: 2em;
 }
 .img-container {
     height: 13em;
@@ -227,45 +192,41 @@ body {
 .icon-spacer {
     margin-right: 0.5em;
 }
-/* svgs radials */
-
-.radial-absolute {
-    position: absolute;
-    z-index: 1;
-}
-.radial-blue-projects-section {
-    left: -13em;
-    top: -8em;
-}
-.radial-pink-projects-section {
-    left: 33em;
-    z-index: 0
-}
-.radial-yellow-projects-section {
-    left: 80em;
-}
-/* svgs radials - end */
-
-/* Design section */
-
-.design-section {
-    position: relative;
-    top: 13em;
-}
-
-/* Design section - end */
 
 /* MY PROJECTS END */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1358px) and (min-width: 780px) {
+    .project-cart {
+        width: 17em;
+    }
+    p.paragraph {
+        font-size: 14px;
+    }
+    a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    main {
+        padding: 0 5em;
+    }
+}
+
+@media screen and (max-width: 1086px) {
     .projects-list {
-        position: relative;
+        gap: 2em;
+    }
+}
+
+@media screen and (max-width: 780px) {
+     main {
+        padding: 0 3em;
+    }
+    .projects-list {
         display: inline-grid;
         gap: 4em;
         width: auto;
-    }
-    .contact-container {
-        top: 37em;
     }
     .background-rectangle {
         display: flex;
@@ -279,5 +240,11 @@ body {
         width: auto;
         padding: 2em;
         font-size: 3vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        padding: 0 1em;
     }
 }
