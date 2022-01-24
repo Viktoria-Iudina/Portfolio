@@ -47,8 +47,9 @@ main {
 }
 /* HEADER */
 .header-container {
+    background-color: rgb(255,255,255, 0.55);
     display: flex;
-    border-bottom: 1px solid #F2F2F2;
+    border-bottom: 2px solid #281B4F;
     padding: 1em 0;
     align-items: center;
 }
