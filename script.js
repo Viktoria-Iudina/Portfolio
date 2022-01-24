@@ -16,3 +16,10 @@ const navUL = document.getElementById('navigation-menu');
 hamburger.addEventListener('click', () => {
     navUL.classList.toggle('show');
 });
+
+// changing hamburger menu icon on click
+document.getElementById("hamburger2").addEventListener("click", function() {
+
+    this.classList.toggle("fa-times");
+    document.getElementById("navigation-menu").classList.toggle("visible");
+});

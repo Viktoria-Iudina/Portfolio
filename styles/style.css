@@ -70,6 +70,11 @@ header {
     margin-right: 2em;
     color: #281B4F;
 }
+.navigation-menu a:hover {
+    transition: 0.200ms ease;
+    color: #3C2777;
+    border-bottom: 2px solid #3C2777;
+}
 .navigation-menu a:focus {
     font-weight: 550;
     border-bottom: 2px solid #281B4F;
@@ -350,6 +355,12 @@ header {
         font-weight: 550;
         background-color: #F9F3FF;
         border-radius: 20px;
+        border-bottom: none;
+    }
+    .navigation-menu a:hover {
+        transition: 0.200ms ease;
+        color: #3C2777;
+        border-bottom: none;
     }
     .navigation-menu.show {
         display: flex;
