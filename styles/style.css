@@ -68,7 +68,11 @@ header {
 .navigation-menu a {
     text-decoration: none;
     margin-right: 2em;
-    color: black;
+    color: #281B4F;
+}
+.navigation-menu a:focus {
+    font-weight: 550;
+    border-bottom: 2px solid #281B4F;
 }
 .hamburger {
     background-color: transparent;
