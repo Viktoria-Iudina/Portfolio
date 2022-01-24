@@ -7,9 +7,12 @@ body {
 p, a, h1, h2, h3, h4, h5, h6, span {
     color: #18102e;
 }
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
 body {
 	background: linear-gradient(-45deg, #ffff, #CFF9FF,#ffff, #F1DDF4, #ffff, #FEFFE5);
-	background-size: 400% 400%;
+	background-size: 1000% 1000%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
 }
@@ -25,7 +28,6 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
 
 main {
     padding: 0 13em;
@@ -157,12 +159,13 @@ main {
     margin: auto;
 }
 .project-cart {
-    background-color: rgb(255,255,255, 0.85);
-    border: 2px solid #3c2777;
+    background-color: rgb(255,255,255, 0.55);
+    border: 2px solid #fff;
     border-radius: 15px;
     height: auto;
     margin-top: 2em;
     padding: 12px 12px 0px 12px;
+    max-width: 22em;
     width: auto;
 }
 .img-container {
@@ -185,6 +188,17 @@ main {
     background-image: url("../assets/dictionary-img.jpg");
     border-radius: 20%;
 }
+.img-maison-eloe {
+    background-image: url("../assets/maisoneloe.svg");
+    background-repeat: no-repeat;
+}
+.img-mockup_payment {
+    background-image: url("../assets/mockup-cryptopayment.svg");
+}
+.img-mockup_blog_me {
+    background-image: url("../assets/mockup-blog_me.svg ");
+    border-radius: 20%;
+}
 .project-info-container h4,
 .project-info-container p {
     text-align: left;
@@ -194,6 +208,10 @@ main {
 }
 .p-second {
     margin-top: 0px;
+}
+.display-flex {
+    display: flex;
+    align-items: center;
 }
 .project-info-container {
     padding: 1em 1.5em;
