@@ -280,7 +280,7 @@ header {
     p.paragraph {
         font-size: 14px;
     }
-    a {
+    a, p {
         font-size: 14px;
     }
 }
