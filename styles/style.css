@@ -53,21 +53,33 @@ header {
 .header-container {
     background-color: rgb(255,255,255);
     display: flex;
+    justify-content: space-between;
     border-bottom: 2px solid #281B4F;
-    padding: 1em 0;
+    padding: 1em 10em 1em 6em;
     align-items: center;
     box-shadow: 0px 9px 26px -13px rgba(60,39,119,0.3);
     -webkit-box-shadow: 0px 9px 26px -13px rgba(60,39,119,0.3);
     -moz-box-shadow: 0px 9px 26px -13px rgba(60,39,119,0.3);
 }
-.logo {
-    margin-right: 5em;
-    margin-left: 5em;
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 .navigation-menu a {
     text-decoration: none;
     margin-right: 2em;
     color: black;
+}
+.hamburger {
+    background-color: transparent;
+    border: none;
+    color:hsl(256, 51%, 31%);
+    cursor: pointer;
+    display: none;
+    font-size: 22px;
+}
+.hamburger:focus {
+    color: #593bb4;
 }
 /* HEADER END */
 
@@ -319,11 +331,39 @@ header {
         padding: 2em;
         font-size: 3vh;
     }
+    .navigation-menu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1em;
+        width: 100%;
+    }
+    .navigation-menu a {
+        line-height: 2.5;
+    }
+    .navigation-menu a:focus {
+        color: #3C2777;
+        font-weight: 550;
+        background-color: #F9F3FF;
+        border-radius: 20px;
+    }
+    .navigation-menu.show {
+        display: flex;
+    }
+    .header-container {
+        padding: 1em 3em 1em 3em;
+    }
+    .hamburger {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .body {
         padding: 0 1em;
+    }
+    .header-container {
+        padding: 0.5em 2em 0.5em 2em;
     }
     .page-title {
         padding: 2em 1em;
