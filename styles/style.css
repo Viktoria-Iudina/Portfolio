@@ -1,6 +1,8 @@
 * {
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
     margin: auto;
 }
@@ -179,14 +181,17 @@ main {
     height: 13em;
     background-position: center;
     border-radius: 20%;
+    background-repeat: no-repeat;
 }
 .img-pitchouns {
     background-image: url("../assets/pitchouns-img.jpg");
     border-radius: 20%;
+    background-repeat: no-repeat;
 }
 .img-dictionary {
     background-image: url("../assets/dictionary-img.jpg");
     border-radius: 20%;
+    background-repeat: no-repeat;
 }
 .img-maison-eloe {
     background-image: url("../assets/maisoneloe.svg");
@@ -194,10 +199,12 @@ main {
 }
 .img-mockup_payment {
     background-image: url("../assets/mockup-cryptopayment.svg");
+    background-repeat: no-repeat;
 }
 .img-mockup_blog_me {
     background-image: url("../assets/mockup-blog_me.svg ");
     border-radius: 20%;
+    background-repeat: no-repeat;
 }
 .project-info-container h4,
 .project-info-container p {
