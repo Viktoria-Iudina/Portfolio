@@ -206,6 +206,23 @@ main {
     border-radius: 20%;
     background-repeat: no-repeat;
 }
+.img-illustration-books {
+    background-image: url("../assets/illustration-books.jpg ");
+    border-radius: 20%;
+    background-repeat: no-repeat;
+}
+.img-illustration-star-night {
+    background-image: url("../assets/illustratiojn-star-night.jpg ");
+    background-size: cover;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+}
+.img-illustration-dog {
+    background-image: url("../assets/illustration-dog.jpg");
+    background-size: cover;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+}
 .project-info-container h4,
 .project-info-container p {
     text-align: left;
