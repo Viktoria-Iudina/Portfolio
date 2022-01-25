@@ -181,6 +181,10 @@ header {
 
 /* MY PROJECTS */
 
+.three-projects-container {
+    margin-top: 2em;
+}
+
 .my-projects-container {
     text-align: center;
 }
@@ -194,10 +198,18 @@ header {
     border: 2px solid #fff;
     border-radius: 15px;
     height: auto;
-    margin-top: 2em;
     padding: 12px 12px 0px 12px;
+    margin: auto;
     max-width: 22em;
     width: auto;
+    transition: 0.2s ease-in-out;
+}
+.project-cart:hover {
+    background-color: rgb(255,255,255);
+    box-shadow: 10px 10px 12px -1px rgba(244,244,244,0.68);
+-webkit-box-shadow: 10px 10px 12px -1px rgba(244,244,244,0.68);
+-moz-box-shadow: 10px 10px 12px -1px rgba(244,244,244,0.68);
+    margin-top: -3px;
 }
 .img-container {
     height: 13em;
