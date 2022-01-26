@@ -208,29 +208,28 @@ header {
     background-color: rgb(255,255,255);
     -webkit-box-shadow: 5px 5px 0px 0px #3C2777; 
     box-shadow: 5px 5px 0px 0px #3C2777;
-    margin-top: -3px;
+    margin-top: -1px;
 }
 .img-container {
     height: 13em;
     background-position: center;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
+    border-radius: 14px;
 }
 .img-weather {
     background-image: url("../assets/weather-app-project-img.jpg");
     height: 13em;
     background-position: center;
-    border-radius: 20%;
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .img-pitchouns {
     background-image: url("../assets/pitchouns-img.jpg");
-    border-radius: 20%;
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .img-dictionary {
     background-image: url("../assets/dictionary-img.jpg");
-    border-radius: 20%;
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .img-maison-eloe {
@@ -238,29 +237,30 @@ header {
     background-repeat: no-repeat;
 }
 .img-mockup_payment {
-    background-image: url("../assets/mockup-cryptopayment.svg");
+    background-image: url("../assets/mockup-paycrpt.svg");
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .img-mockup_blog_me {
     background-image: url("../assets/mockup-blog_me.svg ");
-    border-radius: 20%;
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .img-illustration-books {
     background-image: url("../assets/illustration-books.jpg ");
-    border-radius: 20%;
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .img-illustration-star-night {
     background-image: url("../assets/illustratiojn-star-night.jpg ");
     background-size: cover;
-    border-radius: 20%;
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .img-illustration-dog {
     background-image: url("../assets/illustration-dog.jpg");
     background-size: cover;
-    border-radius: 20%;
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .project-info-container h4,
@@ -298,6 +298,29 @@ header {
 .github-info {
     text-align: initial;
     display: flex;
+    border: 2px solid #3C2777;
+    width: fit-content;
+    padding: 5px 6px;
+    border-radius: 20px;
+}
+.github-info:hover .link-btn {
+    color: #102936;
+}
+.github-info:hover  {
+    color: #102936;
+}
+.github-info:hover {
+    background-color: #bee8ff;
+    border: 2px solid #102936;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 0px #102936;
+    margin-top: -1px;
+}
+.github-info:hover .link-hover {
+    fill: #102936;
+}
+.link-btn {
+    text-decoration: none;
 }
 .icon-spacer {
     margin-right: 0.5em;
