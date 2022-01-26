@@ -195,7 +195,7 @@ header {
 }
 .project-cart {
     background-color: rgb(255,255,255, 0.55);
-    border: 2px solid #fff;
+    border: 2px solid #3C2777;
     border-radius: 15px;
     height: auto;
     padding: 12px 12px 0px 12px;
@@ -206,9 +206,8 @@ header {
 }
 .project-cart:hover {
     background-color: rgb(255,255,255);
-    box-shadow: 10px 10px 12px -1px rgba(244,244,244,0.68);
--webkit-box-shadow: 10px 10px 12px -1px rgba(244,244,244,0.68);
--moz-box-shadow: 10px 10px 12px -1px rgba(244,244,244,0.68);
+    -webkit-box-shadow: 5px 5px 0px 0px #3C2777; 
+    box-shadow: 5px 5px 0px 0px #3C2777;
     margin-top: -3px;
 }
 .img-container {
