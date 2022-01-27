@@ -207,7 +207,7 @@ header {
 .project-cart:hover {
     background-color: rgb(255,255,255);
     -webkit-box-shadow: 5px 5px 0px 0px #3C2777; 
-    box-shadow: 5px 5px 0px 0px #3C2777;
+    box-shadow: 3px 3px 0px 0px #3C2777;
     margin-top: -1px;
 }
 .img-container {
