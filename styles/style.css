@@ -256,6 +256,11 @@ header {
     border-radius: 14px;
     background-repeat: no-repeat;
 }
+.img-codev-visual-cart {
+    background-image: url("../assets/charte-graphique-codev.png");
+    border-radius: 14px;
+    background-repeat: no-repeat;
+}
 .img-illustration-books {
     background-image: url("../assets/illustration-books.jpg ");
     border-radius: 14px;
