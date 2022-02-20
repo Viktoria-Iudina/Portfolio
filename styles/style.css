@@ -235,48 +235,84 @@ header {
 .img-maison-eloe {
     background-image: url("../assets/maisoneloe.svg");
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-maison-eloe:hover {
+    opacity: 1;
 }
 .img-codev-site {
     background-image: url("../assets/codev-site-web.png");
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-codev-site:hover {
+    opacity: 1;
 }
 .img-mockup_payment {
     background-image: url("../assets/mockup-paycrpt.svg");
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.8;
+}
+.img-mockup_payment:hover {
+    opacity: 1;
 }
 .img-e2xr {
     background-image: url("../assets/e2xr.png");
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-e2xr:hover {
+    opacity: 1;
 }
 .img-mockup_blog_me {
     background-image: url("../assets/mockup-blog_me.svg ");
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-mockup_blog_me:hover {
+    opacity: 1;
 }
 .img-codev-visual-cart {
     background-image: url("../assets/charte-graphique-codev.png");
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-codev-visual-cart:hover {
+    opacity: 1;
 }
 .img-illustration-books {
     background-image: url("../assets/illustration-books.jpg ");
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-illustration-books:hover {
+    opacity: 1;
 }
 .img-illustration-star-night {
     background-image: url("../assets/illustratiojn-star-night.jpg ");
     background-size: cover;
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-illustration-star-night:hover {
+    opacity: 1;
 }
 .img-illustration-dog {
     background-image: url("../assets/illustration-dog.jpg");
     background-size: cover;
     border-radius: 14px;
     background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.img-illustration-dog:hover {
+    opacity: 1;
 }
 .project-info-container h4,
 .project-info-container p {
@@ -296,6 +332,12 @@ header {
     padding: 1em 1.5em;
     border-bottom-left-radius: 17px;
     border-bottom-right-radius: 17px;
+}
+.project-info-maison-eloe {
+    padding-top: 0px !important;
+}
+.h4-maison-eloe {
+    margin: 2px 0;
 }
 .project-info-small-container {
     padding: 2.2em 1.5em;
