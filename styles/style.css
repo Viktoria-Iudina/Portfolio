@@ -241,7 +241,7 @@ header {
     opacity: 1;
 }
 .img-codev-site {
-    /*background-image: url("../assets/codev-site-web.png");*/
+    background-image: url("../assets/codev-site-web.png");
     border-radius: 14px;
     background-repeat: no-repeat;
     opacity: 0.9;
