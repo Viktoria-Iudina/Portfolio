@@ -241,6 +241,11 @@ header {
     border-radius: 14px;
     background-repeat: no-repeat;
 }
+.img-e2xr {
+    background-image: url("../assets/e2xr.png");
+    border-radius: 14px;
+    background-repeat: no-repeat;
+}
 .img-mockup_blog_me {
     background-image: url("../assets/mockup-blog_me.svg ");
     border-radius: 14px;
