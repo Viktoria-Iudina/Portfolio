@@ -236,6 +236,11 @@ header {
     background-image: url("../assets/maisoneloe.svg");
     background-repeat: no-repeat;
 }
+.img-codev-site {
+    background-image: url("../assets/codev-site-web.png");
+    border-radius: 14px;
+    background-repeat: no-repeat;
+}
 .img-mockup_payment {
     background-image: url("../assets/mockup-paycrpt.svg");
     border-radius: 14px;
@@ -306,6 +311,7 @@ header {
     border: 2px solid #3C2777;
     width: fit-content;
     padding: 5px 6px;
+    margin-top: 1em;;
     border-radius: 20px;
 }
 .github-info:hover .link-btn {
@@ -319,7 +325,7 @@ header {
     border: 2px solid #102936;
     cursor: pointer;
     box-shadow: 3px 3px 0px 0px #102936;
-    margin-top: -1px;
+    transform: translateY(-3px);
 }
 .github-info:hover .link-hover {
     fill: #102936;
