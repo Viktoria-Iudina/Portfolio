@@ -328,6 +328,21 @@ header {
 
 /* MY PROJECTS END */
 
+/* FOOTER START */
+
+footer {
+    background-color: #281B4F;
+    margin-top: 3em;
+    padding: 1em 0;
+}
+
+.footer-text {
+    display: block;
+    color: #F9F3FF;
+    text-align: center;
+}
+
+/* FOOTER END */
 @media screen and (max-width: 1358px) and (min-width: 780px) {
     .project-cart {
         width: 17em;
