@@ -241,7 +241,7 @@ header {
     opacity: 1;
 }
 .img-codev-site {
-    background-image: url("../assets/codev-site-web.png");
+    /*background-image: url("../assets/codev-site-web.png");*/
     border-radius: 14px;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -401,6 +401,36 @@ footer {
 }
 
 /* FOOTER END */
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+}
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+   display: none;
+}
+
+.carousel .carousel__item--visible {
+    display: block;
+}
+
+.carousel__actions {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.carousel__actions button {
+    border: none;
+    border-radius: 50%;
+    background-color: #281B4F;
+    color: #FEFFE5;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1358px) and (min-width: 780px) {
     .project-cart {
         width: 17em;
