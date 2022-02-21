@@ -191,7 +191,16 @@
                                     </svg>
                                     <a target="_blank" class="link-btn" href='https://github.com/Viktoria-Iudina'>Voir sur GitHub</a>
                                 </div>  
-                                <button class="pop-up">Voir +</button>
+                                <button data-modal-target="#modal" class="pop-up">Voir +</button>
+                                <div class="modal" id="modal">
+                                    <div class="modal-img">
+                                        <button data-close-button class="close-button">&times;</button>
+                                    </div>
+                                    <div class="modal-project-info">
+                                        INFO PLACEHOLDER
+                                    </div>
+                                </div>
+                                <div id="overlay"></div>
                             </div>
                         </div>
                     </div>
