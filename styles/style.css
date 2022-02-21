@@ -74,6 +74,7 @@ header {
     transition: 0.200ms ease;
     color: #3C2777;
     border-bottom: 2px solid #3C2777;
+    transition: all 200ms ease-out;
 }
 .navigation-menu a:focus {
     font-weight: 550;
@@ -209,6 +210,7 @@ header {
     -webkit-box-shadow: 5px 5px 0px 0px #3C2777; 
     box-shadow: 3px 3px 0px 0px #3C2777;
     margin-top: -1px;
+    transition: all 200ms ease-out;
 }
 .img-container {
     height: 13em;
@@ -239,6 +241,7 @@ header {
 }
 .img-maison-eloe:hover {
     opacity: 1;
+    transition: all 200ms ease-out;
 }
 .img-codev-site {
     background-image: url("../assets/codev-site-web.png");
@@ -248,6 +251,7 @@ header {
 }
 .img-codev-site:hover {
     opacity: 1;
+    transition: all 200ms ease-out;
 }
 .img-mockup_payment {
     background-image: url("../assets/mockup-paycrpt.svg");
@@ -257,6 +261,7 @@ header {
 }
 .img-mockup_payment:hover {
     opacity: 1;
+    transition: all 200ms ease-out;
 }
 .img-e2xr {
     background-image: url("../assets/e2xr.png");
@@ -266,6 +271,7 @@ header {
 }
 .img-e2xr:hover {
     opacity: 1;
+    transition: all 200ms ease-out;
 }
 .img-mockup_blog_me {
     background-image: url("../assets/mockup-blog_me.svg ");
@@ -275,6 +281,7 @@ header {
 }
 .img-mockup_blog_me:hover {
     opacity: 1;
+    transition: all 200ms ease-out;
 }
 .img-codev-visual-cart {
     background-image: url("../assets/charte-graphique-codev.png");
@@ -284,6 +291,7 @@ header {
 }
 .img-codev-visual-cart:hover {
     opacity: 1;
+    transition: all 200ms ease-out;
 }
 .img-illustration-books {
     background-image: url("../assets/illustration-books.jpg ");
@@ -293,6 +301,7 @@ header {
 }
 .img-illustration-books:hover {
     opacity: 1;
+    transition: all 200ms ease-out;
 }
 .img-illustration-star-night {
     background-image: url("../assets/illustratiojn-star-night.jpg ");
@@ -358,8 +367,9 @@ header {
     border: 2px solid #3C2777;
     width: fit-content;
     padding: 5px 6px;
-    margin-top: 1em;;
+    margin-top: 0.3em;;
     border-radius: 20px;
+    box-shadow: 3px 3px 0px 0px #102936;
 }
 .github-info:hover .link-btn {
     color: #102936;
@@ -371,11 +381,28 @@ header {
     background-color: #bee8ff;
     border: 2px solid #102936;
     cursor: pointer;
-    box-shadow: 3px 3px 0px 0px #102936;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
+    transition: all 200ms ease-out;
 }
 .github-info:hover .link-hover {
     fill: #102936;
+}
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pop-up {
+    border: 2px solid #3c2777;
+    border-radius: 50%;
+    height: 4em;
+    box-shadow: 3px 2px 0px 0px #3c2777;
+    background-color: white;
+}
+.pop-up:hover {
+    transform: translateY(-2px);
+    background-color: #E598F7;
+    transition: all 200ms ease-out;
 }
 .link-btn {
     text-decoration: none;
