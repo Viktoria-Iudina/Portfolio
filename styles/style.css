@@ -398,6 +398,7 @@ header {
     height: 4em;
     box-shadow: 3px 2px 0px 0px #3c2777;
     background-color: white;
+    margin-left: 8px;
 }
 .pop-up:hover {
     transform: translateY(-2px);
