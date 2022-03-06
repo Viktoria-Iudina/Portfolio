@@ -24,7 +24,7 @@ document.getElementById("hamburger2").addEventListener("click", function() {
     document.getElementById("navigation-menu").classList.toggle("visible");
 });
 
-// MODAL
+// MODAL Weather App
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
@@ -61,5 +61,45 @@ function closeModal(modal) {
     if (modal == null) 
     return
     modal.classList.remove('active')
+    overlay.classList.remove('active')
+}
+
+// MODAL CODEV
+const openModalCodevButtons = document.querySelectorAll('[data-modal-target]');
+const closeModalCodevButtons = document.querySelectorAll('[data-close-button]');
+const overlayCodev = document.getElementById('overlay');
+
+openModalCodevButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalcodevTarget)
+        openModal(modal)
+    })
+})
+
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modalcodev.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
+})
+
+closeModalCodevButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest('.modalcodev')
+        closeModal(modal)
+    })
+})
+
+function openModal(modal) {
+    if (modal == null) 
+    return
+    modalcodev.classList.add('active')
+    overlay.classList.add('active')
+}
+
+function closeModal(modal) {
+    if (modal == null) 
+    return
+    modalcodev.classList.remove('active')
     overlay.classList.remove('active')
 }
