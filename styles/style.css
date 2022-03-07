@@ -568,7 +568,8 @@ button.try-app:hover {
 }
 .modal-img-codev {
   background-image: url("../assets/charte-graphique-codev.png");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   height: 25em;
