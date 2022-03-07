@@ -566,6 +566,14 @@ button.try-app:hover {
 .modalcodev.active {
   transform: translate(-50%, -50%) scale(1);
 }
+.modal-img-codev {
+  background-image: url("../assets/charte-graphique-codev.png");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 25em;
+  width: -webkit-fill-available;
+}
 /* MODAL CODEV END */
 
 /* FOOTER START */

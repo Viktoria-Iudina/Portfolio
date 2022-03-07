@@ -71,34 +71,34 @@ const overlayCodev = document.getElementById('overlay');
 
 openModalCodevButtons.forEach(button => {
     button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalcodevTarget)
-        openModal(modal)
+        const modalcodev = document.querySelector(button.dataset.modalcodevTarget)
+        openModal(modalcodev)
     })
 })
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modalcodev.active')
-  modals.forEach(modal => {
-    closeModal(modal)
+  const modalscodev = document.querySelectorAll('.modalcodev.active')
+  modalscodev.forEach(modalcodev => {
+    closeModal(modalcodev)
   })
 })
 
 closeModalCodevButtons.forEach(button => {
     button.addEventListener('click', () => {
-        const modal = button.closest('.modalcodev')
-        closeModal(modal)
+        const modalcodev = button.closest('.modalcodev')
+        closeModal(modalcodev)
     })
 })
 
-function openModal(modal) {
-    if (modal == null) 
+function openModalCodev(modalcodev) {
+    if (modalcodev == null) 
     return
     modalcodev.classList.add('active')
     overlay.classList.add('active')
 }
 
-function closeModal(modal) {
-    if (modal == null) 
+function closeModalCodev(modalcodev) {
+    if (modalcodev == null) 
     return
     modalcodev.classList.remove('active')
     overlay.classList.remove('active')
