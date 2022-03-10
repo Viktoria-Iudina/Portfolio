@@ -635,9 +635,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1440px) {
   .body {
     padding: 0 5em;
+  }
+  .modal-img,
+  .modal-img-codev {
+    height: 19em;
   }
 }
 
@@ -699,6 +703,10 @@ footer {
   }
   .hamburger {
     display: block;
+  }
+    .modal-img,
+  .modal-img-codev {
+    height: 17em;
   }
 }
 
