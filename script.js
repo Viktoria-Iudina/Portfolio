@@ -103,3 +103,51 @@ function closeModalCodev(modalcodev) {
     modalcodev.classList.remove('active')
     overlay.classList.remove('active')
 }
+
+
+// CAROUSEL IN CODEV MODAL
+
+// 1. Declare var
+number = 0;
+
+// 3. Auto turn over
+let interval = true;
+
+if (interval == true) {
+    showSlide(number);
+    setInterval(function() {
+        forwardSlide();
+    }, 10000)
+} else if (interval == false) {
+    showSlide(number);
+}
+
+//2. Button forward
+function forwardSlide() {
+    number = number + 1;
+    showSlide(number);
+}
+// 2. Button back
+function backSlide() {
+    number = number - 1;
+    showSlide(number);
+}
+
+// 1. Fix slides length
+function showSlide(n) {
+
+    let slides = document.getElementsByClassName("slides");
+
+    if (n > slides.length - 1) {
+        number = 0;
+    } else if (n < 0) {
+        number = slides.length - 1;
+    }
+    // hide slides
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+        slides[number].style.display = "block";
+}
+// call function
+showSlide("slides");

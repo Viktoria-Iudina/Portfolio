@@ -566,14 +566,29 @@ button.try-app:hover {
 .modalcodev.active {
   transform: translate(-50%, -50%) scale(1);
 }
-.modal-img-codev {
-  background-image: url("../assets/charte-graphique-codev.png");
+.codev-carousel {
   background-size: contain;
   background-position: center;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   height: 25em;
   width: -webkit-fill-available;
+  position: absolute;
+  overflow: hidden;
+}
+.modal-carousel-arrows {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-carousel-arrows .back,
+.modal-carousel-arrows .forward {
+  cursor: pointer;
+  position: relative;
+}
+.modal-carousel-arrows .back:hover,
+.modal-carousel-arrows .forward:hover {
+  -webkit-filter: contrast(10%);
+  filter: contrast(10%);
 }
 /* MODAL CODEV END */
 
@@ -707,6 +722,7 @@ footer {
     .modal-img,
   .modal-img-codev {
     height: 17em;
+    background-size: auto;
   }
 }
 
