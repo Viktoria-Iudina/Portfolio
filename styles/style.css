@@ -29,15 +29,17 @@ body {
   background: linear-gradient(
     -45deg,
     #ffff,
-    #cff9ff,
+    #cff9ff90,
     #ffff,
-    #f1ddf4,
-    #ffff,
-    #feffe5
+    #f1ddf4bc,
+    #ffff
   );
   background-size: 1000% 1000%;
   animation: gradient 10s ease infinite;
   height: 100vh;
+}
+p, span, strong, li {
+  font-size: 14px;
 }
 
 @keyframes gradient {
@@ -567,10 +569,11 @@ button.try-app:hover {
   transform: translate(-50%, -50%) scale(1);
 }
 .carousel-codev {
-  height: 22em;
   background-color: #f5f5f5;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  height: 22em;
+  overflow: hidden;
 }
 .carousel-codev .slides img {
   margin-left: 60px;
@@ -703,11 +706,11 @@ footer {
     line-height: 2.5;
   }
   .navigation-menu a:focus {
+    background-color: #f9f3ff;
+    border-bottom: none;
+    border-radius: 20px;
     color: #3c2777;
     font-weight: 550;
-    background-color: #f9f3ff;
-    border-radius: 20px;
-    border-bottom: none;
   }
   .navigation-menu a:hover {
     transition: 0.2ms ease;
@@ -723,7 +726,7 @@ footer {
   .hamburger {
     display: block;
   }
-    .modal-img,
+  .modal-img,
   .modal-img-codev {
     height: 17em;
     background-size: auto;
@@ -748,5 +751,24 @@ footer {
   }
   .projects-list {
     display: block;
+  }
+  .modal-project-info .modal-tools {
+    flex-direction: column;
+  }
+  .modal-tools .modal-list-tools {
+    margin-left: 0;
+    margin-top: auto;
+  }
+  .modal-functionalities ul {
+    margin-top: auto;
+  }
+  .modal-project-info .modal-functionalities {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-img, .modal-img-codev {
+    background-position: center;
+    background-size: 26em;
+    height: 15em;
   }
 }
