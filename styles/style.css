@@ -566,24 +566,28 @@ button.try-app:hover {
 .modalcodev.active {
   transform: translate(-50%, -50%) scale(1);
 }
-.codev-carousel {
-  background-size: contain;
-  background-position: center;
+.carousel-codev {
+  height: 22em;
+  background-color: #f5f5f5;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  height: 25em;
-  width: -webkit-fill-available;
-  position: absolute;
-  overflow: hidden;
+}
+.carousel-codev .slides img {
+  margin-left: 60px;
+}
+.carousel-codev .slides {
+  background-color: #F5F5F5;
 }
 .modal-carousel-arrows {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 50%;
+  margin-left: 60px;
 }
 .modal-carousel-arrows .back,
 .modal-carousel-arrows .forward {
   cursor: pointer;
-  position: relative;
 }
 .modal-carousel-arrows .back:hover,
 .modal-carousel-arrows .forward:hover {
