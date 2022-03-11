@@ -771,4 +771,18 @@ footer {
     background-size: 26em;
     height: 15em;
   }
+  .modal,
+  .modalcodev {
+    max-width: 90%;
+  }
+  .carousel-codev {
+    height: 17em;
+  }
+  .modal-carousel-arrows {
+    margin-left: 20px;
+  }
+  .modal-carousel-arrows .forward {
+    cursor: pointer;
+    margin-right: -48px;
+  }
 }
