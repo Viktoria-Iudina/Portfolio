@@ -38,7 +38,7 @@ body {
   animation: gradient 10s ease infinite;
   height: 100vh;
 }
-p, span, strong, li {
+p, strong, li, a {
   font-size: 14px;
 }
 
