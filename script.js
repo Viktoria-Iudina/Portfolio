@@ -156,7 +156,7 @@ showSlide("slides");
 
 // TITLE ANIMATION - TERMINAL TEXT EFFECT
 
-consoleText(['Designer', 'Développeur', 'Intégrateur'], 'text',['#3c2777','#3c2777','#3c2777']);
+consoleText(['Designer', 'Développeur', 'Intégrateur'], 'text',['#6652a0','#6652a0','#6652a0']);
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
   var visible = true;
@@ -205,3 +205,16 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+
+// DARK LIGHT MODE SWITCH
+
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', () => {
+    // change a theme
+    document.body.classList.toggle('dark');
+    // document.getElementById("text").style.color = "#988ed5";
+    // document.getElementById("console").style.color = "#988ed5";
+    // document.getElementById("web").style.color = "#988ed5";
+});

@@ -65,6 +65,13 @@
                             fill="#3C2777" />
                     </svg>
                 </a>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+
                 <button class="hamburger" id="hamburger">
                     <i id="hamburger2" class="fas fa-bars"></i>
                 </button>
@@ -81,7 +88,10 @@
         <!-- TITLE AND BANNER SECTION -->
         <div class="container-main">
             <div id="scroll_to_top" class="title-subtitle-container">
-                <h1 class="page-title"><span class="text-highlight"><span class='console-container'><span id='text'></span>
+                <h1 class="page-title">
+                    <span class="text-highlight">
+                        <span class='console-container'>
+                            <span id='text'></span>
                     <d class='console-underscore' id='console'>&#95;
                 </span> web</span>,<br />
                     j’aime les interfaces interactives, propres et aérées
@@ -128,7 +138,7 @@
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M0.316059 16.2705C-0.0868534 16.6482 -0.107267 17.281 0.270463 17.6839C0.648193 18.0869 1.28103 18.1073 1.68394 17.7295L0.316059 16.2705ZM17.9995 2.03224C18.0173 1.48024 17.5842 1.01833 17.0322 1.00052L8.03692 0.710347C7.48492 0.692541 7.02301 1.12559 7.0052 1.67759C6.98739 2.22958 7.42044 2.6915 7.97244 2.70931L15.9683 2.96724L15.7103 10.9631C15.6925 11.5151 16.1256 11.977 16.6776 11.9948C17.2296 12.0126 17.6915 11.5796 17.7093 11.0276L17.9995 2.03224ZM1.68394 17.7295L17.6839 2.72954L16.3161 1.27046L0.316059 16.2705L1.68394 17.7295Z"
-                                fill="#3C2777" />
+                                fill="#6652a0" />
                         </svg>
                         <a target="_blank" class="link" href='https://github.com/Viktoria-Iudina'>github.com/Viktoria-Iudina</a>
                     </div>
@@ -156,7 +166,7 @@
         
         <div class="my-projects-container">
             <h2 class="second-title">Mes projets</h2>
-            <h3 id="frontend">Front-end</h3>
+            <h3 class="frontend" id="frontend">Front-end</h3>
             <div class="projects-list">
                 <div class="three-projects-container">
                     <div class="project-cart">
@@ -164,8 +174,8 @@
                             <div class="img-container img-weather"></div>
                             <div class="project-info-small-container">
                         </a>
-                            <h4>
-                                <a target="_blank" class="link-style" href="https://weather-app-victoria-iudina.netlify.app/">
+                            <h4 class="text-dark-theme">
+                                <a target="_blank" class="link-style text-dark-theme" href="https://weather-app-victoria-iudina.netlify.app/">
                                 Prévisions météo</br>Application Web</a>
                             </h4>
                             <div class="project-details">
@@ -183,8 +193,8 @@
                                         d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                         fill="#3C2777" />
                                 </svg>
-                                <p class="paragraph">React</p>
-                                <p class="paragraph">Weather API</p>
+                                <p class="paragraph text-dark-theme">React</p>
+                                <p class="paragraph text-dark-theme">Weather API</p>
                             </div>  
                             <div class="container-buttons">
                                 <div class="github-info">
@@ -203,17 +213,17 @@
                                         <button data-close-button class="close-button">&times;</button>
                                     </div>
                                     <div class="modal-project-info">
-                                            <h5 class="modal-info-title title">Application web prévisions météo</h5>
+                                            <h5 class="modal-info-title title text-dark-theme">Application web prévisions météo</h5>
                                             <div class="modal-tools">
-                                                <p class="modal-info-title">Les moyennes utilisées</p>
-                                                <p class="modal-list-tools">React, OpenWeatherMap API</p>
+                                                <p class="modal-info-title text-dark-theme">Les moyennes utilisées</p>
+                                                <p class="modal-list-tools text-dark-theme">React, OpenWeatherMap API</p>
                                             </div>
                                             <div class="modal-functionalities">
-                                                <p class="modal-info-title">Les fonctionnalités</p>
+                                                <p class="modal-info-title text-dark-theme">Les fonctionnalités</p>
                                                 <ul>
-                                                    <li class="modal-list-item">affichage du temps actuel</li>
-                                                    <li class="modal-list-item">affichage de la température en Celsium et Fahrenheit</li>
-                                                    <li class="modal-list-item">prévision météo pour les prochaines 5 jours</li>
+                                                    <li class="modal-list-item text-dark-theme">affichage du temps actuel</li>
+                                                    <li class="modal-list-item text-dark-theme">affichage de la température en Celsium et Fahrenheit</li>
+                                                    <li class="modal-list-item text-dark-theme">prévision météo pour les prochaines 5 jours</li>
                                                 </ul>
                                             </div>
                                             <div class="modal-buttons">
@@ -239,7 +249,7 @@
                         </a>    
                         <div class="project-info-container">
                             <h4>
-                                <a target="_blank" class="link-style" href="https://pitchouns.nepal.pro/">
+                                <a target="_blank" class="link-style text-dark-theme" href="https://pitchouns.nepal.pro/">
                                 Pitchouns Librarie</br>Librairie pour les enfants</a>
                             </h4>
                             <div class="project-details">
@@ -257,12 +267,12 @@
                                         d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                         fill="#3C2777" />
                                 </svg>
-                                <p class="paragraph">WordPress</p>
-                                <p class="paragraph">Elementor</p>
+                                <p class="paragraph text-dark-theme">WordPress</p>
+                                <p class="paragraph text-dark-theme">Elementor</p>
                             </div>
                                 <div class="project-details">
-                                    <p class="paragraph p-second">WooCommerce</p>
-                                    <p class="paragraph p-second">WP Bakery</p>
+                                    <p class="paragraph p-second text-dark-theme">WooCommerce</p>
+                                    <p class="paragraph p-second text-dark-theme">WP Bakery</p>
                                 </div>
                             <div class="github-info">
                                 <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -281,7 +291,7 @@
                             <div class="project-info-small-container">
                         </a>    
                             <h4>
-                                <a target="_blank" class="link-style" href="https://dictionary-victoria-iudina.netlify.app/">
+                                <a target="_blank" class="link-style text-dark-theme" href="https://dictionary-victoria-iudina.netlify.app/">
                                     Dictionnaire</br>Application Web</a>
                             </h4>
                             <div class="project-details">
@@ -299,8 +309,8 @@
                                         d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                         fill="#3C2777" />
                                 </svg>
-                                <p class="paragraph">React</p>
-                                <p class="paragraph">Dictionary API</p>
+                                <p class="paragraph text-dark-theme">React</p>
+                                <p class="paragraph text-dark-theme">Dictionary API</p>
                             </div>
                             <div class="github-info">
                                 <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -323,7 +333,7 @@
                     </a>
                     <div class="project-info-container project-info-maison-eloe">
                         <h4 class="h4-maison-eloe">
-                            <a target="_blank" class="link-style" href="https://maisoneloe.com/">
+                            <a target="_blank" class="link-style text-dark-theme" href="https://maisoneloe.com/">
                                 MAISON ELOE</br>Marketplace du luxe</a>
                         </h4>
                         <div class="project-details">
@@ -342,12 +352,12 @@
                                     d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                     fill="#3C2777" />
                             </svg>
-                            <p class="paragraph">WordPress</p>
-                            <p class="paragraph">Elementor</p>
+                            <p class="paragraph text-dark-theme">WordPress</p>
+                            <p class="paragraph text-dark-theme">Elementor</p>
                         </div>
                         <div class="project-details">
-                            <p class="paragraph p-second">WooCommerce</p>
-                            <p class="paragraph p-second">HTML/CSS</p>
+                            <p class="paragraph p-second text-dark-theme">WooCommerce</p>
+                            <p class="paragraph p-second text-dark-theme">HTML/CSS</p>
                         </div>
                         <div class="github-info">
                             <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -369,7 +379,7 @@
                     </a>
                     <div class="project-info-container">
                         <h4>
-                            <a target="_blank" class="link-style" href="http://codev-agency.com/">
+                            <a target="_blank" class="link-style text-dark-theme" href="http://codev-agency.com/">
                                 CoDev Agency</br>Développement et design web</a>
                         </h4>
                         <div class="project-details">
@@ -388,8 +398,8 @@
                                     d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                     fill="#3C2777" />
                             </svg>
-                            <p class="paragraph">WordPress</p>
-                            <p class="paragraph">Elementor</p>
+                            <p class="paragraph text-dark-theme">WordPress</p>
+                            <p class="paragraph text-dark-theme">Elementor</p>
                         </div>
                             <div class="github-info">
                                 <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -412,7 +422,7 @@
                     </a>
                     <div class="project-info-container">
                         <h4>
-                            <a target="_blank" class="link-style" href="https://e2xr.io/">
+                            <a target="_blank" class="link-style text-dark-theme" href="https://e2xr.io/">
                                 E2XR</br>Levée de fonds</a>
                         </h4>
                         <div class="project-details">
@@ -431,8 +441,8 @@
                                     d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                     fill="#3C2777" />
                             </svg>
-                            <p class="paragraph">WordPress</p>
-                            <p class="paragraph">Elementor</p>
+                            <p class="paragraph text-dark-theme">WordPress</p>
+                            <p class="paragraph text-dark-theme">Elementor</p>
                         </div>
                         <div class="project-details">
                             <div class="github-info">
@@ -459,7 +469,7 @@
                         </a>
                         <div class="project-info-container">
                             <h4>
-                                <a target="_blank" class="link-style" href="https://drive.google.com/file/d/1L3fOtOlYtC1RstWy3nm0GXW6-FTtjcUe/view?usp=sharing">
+                                <a target="_blank" class="link-style text-dark-theme" href="https://drive.google.com/file/d/1L3fOtOlYtC1RstWy3nm0GXW6-FTtjcUe/view?usp=sharing">
                                     Maquette</br>Système de paiement</a>
                             </h4>
                             <div class="display-flex">
@@ -479,7 +489,7 @@
                                             d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                             fill="#3C2777" />
                                     </svg>
-                                    <p class="paragraph">Figma</p>
+                                    <p class="paragraph text-dark-theme">Figma</p>
                                 </div>
                                 <div class="github-info">
                                     <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none"
@@ -503,7 +513,7 @@
                         </a>
                         <div class="project-info-container">
                             <h4>
-                                <a target="_blank" class="link-style" href="https://drive.google.com/file/d/1EtQ_jqtJ42r15JA07I6Ep4WQPxLwAGye/view?usp=sharing">
+                                <a target="_blank" class="link-style text-dark-theme" href="https://drive.google.com/file/d/1EtQ_jqtJ42r15JA07I6Ep4WQPxLwAGye/view?usp=sharing">
                                     MAISON ELOE</br>Maquette de la page du blog</a>
                             </h4>
                             <div class="display-flex">
@@ -523,7 +533,7 @@
                                             d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                             fill="#3C2777" />
                                     </svg>
-                                    <p class="paragraph">Figma</p>
+                                    <p class="paragraph text-dark-theme">Figma</p>
                                 </div>
                                 <div class="github-info">
                                     <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none"
@@ -545,7 +555,7 @@
                     </a>    
                         <div class="project-info-container">
                             <h4>
-                                <a target="_blank" class="link-style" href="https://drive.google.com/file/d/1Dbs7YFG2X9v50i7hMEr1v0Ettxc5UdDx/view?usp=sharing">
+                                <a target="_blank" class="link-style text-dark-theme" href="https://drive.google.com/file/d/1Dbs7YFG2X9v50i7hMEr1v0Ettxc5UdDx/view?usp=sharing">
                                     CoDev Agency - L'identité visuelle</a>
                             </h4>
                             <div class="display-flex">
@@ -565,7 +575,7 @@
                                             d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                             fill="#3C2777" />
                                     </svg>
-                                    <p class="paragraph">Figma</p>
+                                    <p class="paragraph text-dark-theme">Figma</p>
                                 </div>
                                 
                                 <!-- MODAL CODEV Start -->
@@ -590,17 +600,17 @@
                                         <!-- CAROUSEL -->
                                     </div>
                                     <div class="modal-project-info">
-                                            <h5 class="modal-info-title title">CoDev Agency - Identité visuelle</h5>
+                                            <h5 class="modal-info-title title text-dark-theme">CoDev Agency - Identité visuelle</h5>
                                             <div class="modal-tools">
-                                                <p class="modal-info-title">Outil utilisé :</p>
-                                                <p class="modal-list-tools">Figma</p>
+                                                <p class="modal-info-title text-dark-theme">Outil utilisé :</p>
+                                                <p class="modal-list-tools text-dark-theme">Figma</p>
                                             </div>
                                             <div class="modal-functionalities">
-                                                <p class="modal-info-title">Le contenu :</p>
+                                                <p class="modal-info-title text-dark-theme">Le contenu :</p>
                                                 <ul>
-                                                    <li class="modal-list-item">Charte graphique</li>
-                                                    <li class="modal-list-item">Logo</li>
-                                                    <li class="modal-list-item">Cartes de visite</li>
+                                                    <li class="modal-list-item text-dark-theme">Charte graphique</li>
+                                                    <li class="modal-list-item text-dark-theme">Logo</li>
+                                                    <li class="modal-list-item text-dark-theme">Cartes de visite</li>
                                                 </ul>
                                             </div>
                                             <div class="modal-buttons">
@@ -643,7 +653,7 @@
                                 </a>
                                 <div class="project-info-container">
                                     <h4>
-                                        <a target="_blank" class="link-style"
+                                        <a target="_blank" class="link-style text-dark-theme"
                                             href="http://codev-agency.com/wp-content/uploads/2022/02/books-1.png">
                                             Illustration vectorielle</br>Les livres</a>
                                     </h4>
@@ -663,7 +673,7 @@
                                                     d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                                     fill="#3C2777" />
                                             </svg>
-                                            <p class="paragraph">Adobe Illustrator</p>
+                                            <p class="paragraph text-dark-theme">Adobe Illustrator</p>
                                         </div>
                                         <div class="github-info">
                                             <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none"
@@ -685,7 +695,7 @@
                                 </a>      
                                 <div class="project-info-container">
                                     <h4>
-                                        <a target="_blank" class="link-style" href="http://codev-agency.com/wp-content/uploads/2022/02/illustratiojn-star-night.jpg">
+                                        <a target="_blank" class="link-style text-dark-theme" href="http://codev-agency.com/wp-content/uploads/2022/02/illustratiojn-star-night.jpg">
                                             Illustration vectorielle</br>Nuit étoilée</a>
                                     </h4>
                                         <div class="project-details">
@@ -704,7 +714,7 @@
                                                     d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                                     fill="#3C2777" />
                                             </svg>
-                                            <p class="paragraph">Adobe Illustrator</p>
+                                            <p class="paragraph text-dark-theme">Adobe Illustrator</p>
                                         </div>
                                         <div class="github-info">
                                             <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none"
@@ -727,7 +737,7 @@
                                 </a>
                                 <div class="project-info-container">
                                     <h4>
-                                        <a target="_blank" class="link-style" href="http://codev-agency.com/wp-content/uploads/2022/02/illustration-dog.jpg">
+                                        <a target="_blank" class="link-style text-dark-theme" href="http://codev-agency.com/wp-content/uploads/2022/02/illustration-dog.jpg">
                                             Illustration vectorielle</br>Le chien</a>
                                     </h4>
                                         <div class="project-details">
@@ -746,7 +756,7 @@
                                                     d="M19.4902 5.21594C17.671 5.21594 16.1961 6.6908 16.1961 8.51007C16.1982 10.3285 17.6718 11.8021 19.4902 11.8042C21.3095 11.8042 22.7843 10.3293 22.7843 8.51007C22.7843 6.6908 21.3095 5.21594 19.4902 5.21594ZM19.4902 10.4252C18.4325 10.4252 17.5751 9.56779 17.5751 8.51007C17.5748 7.45183 18.432 6.59342 19.4902 6.59225V6.59491C20.5479 6.59491 21.4054 7.45236 21.4054 8.51007C21.4054 9.56779 20.5479 10.4252 19.4902 10.4252Z"
                                                     fill="#3C2777" />
                                             </svg>
-                                            <p class="paragraph">Adobe Illustrator</p>
+                                            <p class="paragraph text-dark-theme">Adobe Illustrator</p>
                                         </div>
                                         <div class="github-info">
                                             <svg class="icon-spacer" width="14" viewBox="0 0 18 18" fill="none"
