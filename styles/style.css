@@ -9,6 +9,7 @@
   --dark-theme-background-color: #1e1f21;
   --violet: #6652a0;
   --light-violet: #f6f4fe;
+  --dark-violet: #281b4f; 
 }
 
 body {
@@ -97,6 +98,10 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+.logo {
+  color: var(--dark-violet);
+  font-size: 1.2rem;
+}
 .navigation-menu a {
   text-decoration: none;
   margin-right: 2em;
@@ -130,7 +135,7 @@ header {
 
 .label {
   align-items: center;
-  background-color: var(--dark-theme-background-color);
+  background-color: var(--dark-violet);
   border-radius: 50px;
   display: flex;
   justify-content: space-between;
@@ -683,7 +688,7 @@ body.dark .modalcodev {
 /* FOOTER START */
 
 footer {
-  background-color: #281b4f;
+  background-color: var(--dark-violet);
   margin-top: 3em;
   padding: 1em 0;
 }
